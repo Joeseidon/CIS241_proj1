@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 #ifndef DEBUG
 	//If more than one command line argument is present, quit
 	if(argc<5){
-		fprintf(stdout,"This program requires 5 arguments.");
+		fprintf(stdout,"This program requires 5 arguments.\n");
 		exit(0);
 	}else{
 		//assign command line args to usable vars
