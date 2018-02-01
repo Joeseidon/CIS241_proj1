@@ -4,7 +4,7 @@
 #include <string.h>
 
 #define CHAR_COUNT 26
-#define DEBUG 1
+
 
 typedef enum{
 	ENCODE = 0,
